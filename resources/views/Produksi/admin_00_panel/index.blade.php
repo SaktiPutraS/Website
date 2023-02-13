@@ -25,7 +25,6 @@
 @endsection
 @section('header')
 <a href="{{route('pn_01_create')}}" target="_BLANK" rel="noopener" class="btn btn-round btn-success">Tambah Panel</a>
-TESs
 @endsection
 @section('content')
 <div class="card">
