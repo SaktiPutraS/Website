@@ -4,8 +4,7 @@
 @endsection
 
 @section('main_header')
-    Permintaan Perbaikan Hardware
-
+    Permintaan Perbaikan Hardware x
 @endsection
 @section('content')
     <div class="card card-shadow">
@@ -43,7 +42,8 @@
                             <label for="hard_fix_user">Nama User</label>
                         </div>
                         <div class="col-md">
-                            <input required type="text" class="form-control" name="hard_fix_user" value="{{Auth::user()->name}}" readonly>
+                            <input required type="text" class="form-control" name="hard_fix_user"
+                                value="{{ Auth::user()->name }}" readonly>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                         @foreach ($list_laptop as $list_laptop)
                             <option hard-id="{{ $list_laptop->laptop_unique }}"
                                 hard-number="{{ $list_laptop->laptop_number }}">
-                                Laptop - {{ $list_laptop->laptop_user }} - {{ $list_laptop->laptop_name}}</option>
+                                Laptop - {{ $list_laptop->laptop_user }} - {{ $list_laptop->laptop_name }}</option>
                         @endforeach
                         @foreach ($list_pc as $list_pc)
                             <option hard-id="{{ $list_pc->pc_unique }}" hard-number="{{ $list_pc->pc_number }}">
@@ -129,9 +129,6 @@
                 </div>
             </form>
         </div>
-
-
-
     @endsection
     @section('javascript')
         <script>
