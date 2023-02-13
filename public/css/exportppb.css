@@ -1,0 +1,27 @@
+.procurement {
+    text-align: center;
+    background-color: #d1e7dd;
+}
+
+.pengaju {
+    text-align: center;
+    background-color: #f8d7da;
+}
+
+.acc {
+    text-align: center;
+    background-color: #e2e3e5;
+}
+
+.headertable {
+    vertical-align: middle;
+    height: 50px;
+    text-align: center;
+    background-color: #fff3cd;
+    white-space: normal;
+}
+
+.nomor {
+    text-align: center;
+    background-color: #cff4fc;
+}
